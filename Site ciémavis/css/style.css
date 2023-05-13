@@ -1,0 +1,115 @@
+/* haut de tete */
+header{
+    display: inline-block;
+    background-color: red;
+}
+header p.logo{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 250px;
+  }
+
+  /*nav menu*/
+nav.menu-nav ul p.contacter{
+	font-size: 20px;
+	padding-left: 300px;
+}
+
+
+/* bas de page */
+
+footer{
+	color: #fff;
+	font-size: 35px;
+	font-weight: bold;
+    background-color: black;
+}
+
+/*choix de la page*/
+
+	nav.menu-nav ul{
+		padding-left: 400px;
+	}
+
+	nav.menu-nav ul p{
+		padding-left: 200px;
+	}
+
+	nav.menu-nav ul li.btn{
+		display: inline-block;
+	}
+
+	nav.menu-nav ul li.btn a{
+		color: black; 
+		text-decoration: none;
+		padding: 10px;
+		font-size: 30px;
+		background-color: red;
+		margin: 20px;
+		font-weight: bold;
+	}
+
+	nav.menu-nav ul li.btn{
+		list-style-type: none;
+	}
+
+    nav.menu-nav ul li.btn:hover a{
+		color: red;
+		background-color: black;
+		transition: 0.3s; all: calc();
+	}
+
+    nav{
+	font-size: 40px;
+    }
+
+
+    /*choix de la page dans film*/
+
+	nav.menu-film ul li.btn-a{
+		color: black; 
+		text-decoration: none;
+		padding: 10px;
+		font-size: 30px;
+		background-color: #fff;
+		margin: 20px;
+	}
+
+	nav.menu-film ul li.btn_a{
+		list-style-type: none;
+	}
+
+    nav.menu-film ul li.btn-a:hover a{
+		color: blue;
+		background-color: gray;
+		transition: 0.3s; all: calc();
+	}
+
+    nav{
+	font-size: 40px;
+    }
+
+
+	/*la couleur rouge partout*/
+	html{
+		background-color: red;
+		font-size: 20px;
+	}
+	body{
+		color: black;
+		font-size: 20px;
+	}
+
+	/*écriture noir gros du bienvnue de chaque pages*/
+	p.Bienvenue{
+		color:black ;
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	/*épaisseur écriture boite*/
+	div.contente{
+		font-size: 30px;
+
+	}
